@@ -12,8 +12,8 @@ const ContenedorPrincipal = ({ productos }) => {
 
   return (
     <div className="container mx-auto bg-slate-900 w-3xl">
-        <h1 className="text-4xl my-5">Búsqueda de Productos</h1>
-        <hr />
+        <h1 className="text-center text-white text-4xl my-5">Búsqueda de Productos</h1>
+        <hr className="text-amber-50" />
     <BarraBusqueda 
     filtrarTexto={filtrarTexto} 
     enStock={enStock}
