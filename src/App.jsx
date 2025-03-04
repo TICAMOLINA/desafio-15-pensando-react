@@ -1,10 +1,11 @@
 import ContenedorPrincipal from "./components/ContenedorPrincipal"
+import PRODUCTOS from "./constants/PRODUCTOS"
 
 
 const App = () => {
   return (
     <>
-      <ContenedorPrincipal />
+      <ContenedorPrincipal productos={PRODUCTOS} />
 
     </>
   )
